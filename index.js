@@ -20,16 +20,33 @@ console.log(country)
 // onsole.log(country)
 // data types
 
-// 1.string; 
-let greeting= "hello world"
-console.log (greeting)
-console.log(typeof greeting)
 
-// 2. number
-let x= 10
-let y='5'
-console.log (x)
-console.log (typeof x)
-console.log (y)
-console.log (typeof y)
+let mark = 80
+if(mark > 69) {
+    console.log("very good, you have passed the exam")
+}
+if(mark >=70){
+    console.log("you have passed the exam")     
+}else{
+    console.log("you have failed the exam")
+}
 
+// arrays
+// ["mango", "apple", "banana"]
+// ["1", "2", "3"]
+
+let fruits = ["mango", "apple", "banana"]
+console.log(fruits);
+console.log(fruits[2])
+let mixedArray = [ "dee", 25, "uganda", true, null, (name,'jon')]
+console.log(mixedArray)
+console.log(mixedArray[5])
+
+// objects
+let person= {
+    name:"dee",
+    district:"blue",
+    country:"comoros",
+    hobbies:["reading", "coding", "modelling"]
+}
+console.log(person [4])
