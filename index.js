@@ -50,3 +50,56 @@ let person= {
     hobbies:["reading", "coding", "modelling"]
 }
 console.log(person [4])
+// today friday...
+let scores= [
+    {name: "annet", score:85},
+    {name: "justine", score:63},
+    {name: "samuel", score:75},
+    {name: "martin", score:57},
+    {name: "resty", score:39},
+    {name: "liz", score:95},
+]
+scores.forEach(student => {
+    let grade;
+    if (student.score>=90){
+        grade="A"
+    }
+     if (student.score>=80){
+        grade="B"
+    }
+     if (student.score>=70){
+        grade="C"
+    }
+     if (student.score>=60){
+        grade="D"
+    }
+     if (student.score>=50){
+        grade="E"
+    }
+
+    else  {
+        grade="F"}
+    console.log(student.name +":"+student.score+":"+grade)
+});
+
+// functions; we can use it any number of times we want.they are reusable blocks of code that perform a specific task.
+// function declaration; we use the key word  function
+
+function returnSomeValue(){
+    let value= "this is my first function";
+    console.log(value)
+}
+returnSomeValue()
+
+function returnParameter(parameter){
+    return parameter
+}
+console.log(returnParameter("hello world"))
+
+function addNumbers(x, y) {
+    return x + y;
+}
+const sum = addNumbers(4, 5);
+console.log(sum)
+
+
